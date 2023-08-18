@@ -26,3 +26,4 @@ int Prompt(string message)
     int result = int.Parse(Console.ReadLine()!);
     return result;
 }
+
