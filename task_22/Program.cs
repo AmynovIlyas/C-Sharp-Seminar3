@@ -24,6 +24,7 @@ int Prompt(string message)
 {
     Console.WriteLine(message);
     int result = int.Parse(Console.ReadLine()!);
-    return result;
+    return result; // можно здесь вызвать метод Math.Abs - return Math.Abs(result) - все числа будут иметь 
+    // абсолютное значение
 }
 
